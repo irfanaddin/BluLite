@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | BluLite Web Solutions</title>
+    <link rel="icon" href="images/logos/favicon.png" type="images/logo">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="container" data-aos="fade-down">
+        <div class="logo">
+            <h1>BluLite<span>Web Solutions</span></h1>
+        </div>
+        <nav>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active btn-contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="page-header" data-aos="fade-down">
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>Get in touch with our team to discuss your project</p>
+    </div>
+</section>
+
+<section class="contact-info">
+    <div class="container">
+        <div class="contact-grid">
+            <div class="contact-details" data-aos="fade-right">
+                <h2>Get In Touch</h2>
+                <p>Have a question or ready to start your project? Reach out to us using any of the methods below or fill out the contact form.</p>
+
+                <div class="contact-methods">
+                    <div class="contact-method">
+                      <div class="method-icon">
+                        <i class="fas fa-envelope" style="font-size:40px; color:var(--primary-color);"></i>
+                      </div>
+                      <div class="method-details">
+                        <h3>Email</h3>
+                        <p>bluelitews@gmail.com</p>
+                      </div>
+                    </div>
+                  
+                    <div class="contact-method">
+                      <div class="method-icon">
+                        <i class="fas fa-phone" style="font-size:40px; color:var(--primary-color);"></i>
+                      </div>
+                      <div class="method-details">
+                        <h3>Phone</h3>
+                        <p>(714) 726-5901</p>
+                      </div>
+                    </div>
+                  
+                    <div class="contact-method">
+                      <div class="method-icon">
+                        <i class="fas fa-clock" style="font-size:40px; color:var(--primary-color);"></i>
+                      </div>
+                      <div class="method-details">
+                        <h3>Business Hours</h3>
+                        <p>Monday-Friday: 9am-5pm</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+            </div>
+
+            <div class="contact-form-container" data-aos="fade-left">
+                <h2>Send Us a Message</h2>
+                <form class="contact-form" action="https://formspree.io/f/xqaqajra" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                
+                    <!-- Honeypot anti-spam trick (optional but recommended) -->
+                    <input type="text" name="_honey" style="display:none">
+                
+                    <!-- Redirect to a thank you page (optional) -->
+                    <input type="hidden" name="_redirect" value="BWS/site/index.html">
+                
+                    <div class="form-group full-width">
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Commented out map until you have a real location -->
+<!--
+<section class="map">
+    <div class="container">
+        <h2 class="section-title">Our Location</h2>
+        <div class="map-container">
+            <img src="/placeholder.svg?height=400&width=1200" alt="Map Location">
+        </div>
+    </div>
+</section>
+-->
+
+<section class="faq alt-bg" data-aos="fade-up" data-aos-delay="200">
+    <div class="container">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq-grid">
+            <div class="faq-item">
+                <h3>How quickly can you respond to inquiries?</h3>
+                <p>We typically respond to all inquiries within 24 business hours.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What information should I include in my inquiry?</h3>
+                <p>Please include details about your project scope, timeline, and budget if possible.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Do you offer consultations?</h3>
+                <p>Yes, we offer free initial consultations to discuss your project needs.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Can we meet in person?</h3>
+                <p>We are happy to schedule virtual or in-person meetings depending on your location.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>BluLite<span>Web Solutions</span></h2>
+                <p>Your vision, built better online.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-services">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="services.html#web-design">Web Design</a></li>
+                    <li><a href="services.html#web-development">Web Development</a></li>
+                    <li><a href="services.html#seo">SEO Optimization</a></li>
+                    <li><a href="services.html#maintenance">Website Maintenance</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <!-- <p>123 Web Street, Digital City</p> -->
+                <p>Email: blulitews@gmail.com</p>
+                <p>Phone: (714) 726-5901</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 BluLite Web Solutions. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000, // Animation duration (ms)
+    once: true, // Only animate once
+  });
+</script>
+
+</body>
+</html>
